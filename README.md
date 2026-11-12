@@ -1,4 +1,4 @@
-# 007: The World Is Not Enough – 7 Bots Hack - Multiplayer Enhanced 
+# 007: The World Is Not Enough – 7 Bots Hack
 
 A hack for **The World Is Not Enough** (Nintendo 64) that enables **up to 7 bots** in multiplayer matches.
 
@@ -8,6 +8,7 @@ A hack for **The World Is Not Enough** (Nintendo 64) that enables **up to 7 bots
 | ![Menu](images/screenshot1.png) | ![Team Menu](images/screenshot2.png) |
 | ![Gameplay](images/screenshot3.png) | ![Gameplay](images/screenshot4.png) |
 
+
 ## About
 
 A few years ago, I found leftover code in the game suggesting that more than 3 bots may have been planned for multiplayer. This patch is the result of that investigation.
@@ -16,7 +17,23 @@ Original discussions:
 - [GameFAQs](https://gamefaqs.gamespot.com/boards/914163-007-the-world-is-not-enough/80497023)
 - [Shooters Forever](https://www.shootersforever.com/forums_message_boards/viewtopic.php?t=8244)
 
+
 > **Disclaimer:** This hack is solely intended to improve the **multiplayer** experience. Single player mode has **not been tested** and may not work correctly.
+
+
+## Usage
+
+Apply `twine_7bots.bps` to the original ROM:
+
+```
+007 - The World Is Not Enough (USA).z64
+MD5: 9d58996a8aa91263b5cd45c385f45fe4
+```
+
+Tested with:
+- [Hack64 Patcher](https://hack64.net/tools/patcher.php)
+- [RomPatcher by Marc Robledo](https://www.marcrobledo.com/RomPatcher.js/)
+
 
 ## New Features
 
@@ -29,6 +46,7 @@ Original discussions:
   - **Ammo Multiplier** — scales both the magazine capacity and the fire rate
 - **Capture the Flag is complete**: flags sit on the base posts and both flags and bases show up as blips on the radar.
 - **Kill credit works**: the scoreboard credits the player who actually got the kill.
+
 
 ## Bug fixes
 
@@ -44,16 +62,6 @@ Original discussions:
 - Fixed the **CTF flags not appearing on the posts**.
 - Fixed the **4th row of the character list** showing the wrong label.
 
-## Usage
-
-Apply `twine_7bots.bps` to the original ROM:
-
-```
-007 - The World Is Not Enough (USA).z64
-MD5: 9d58996a8aa91263b5cd45c385f45fe4
-```
-
-Tested with the [Hack64 Patcher](https://hack64.net/tools/patcher.php).
 
 ## Known Issues
 
@@ -63,14 +71,15 @@ Tested with the [Hack64 Patcher](https://hack64.net/tools/patcher.php).
 - **Initially selected bots are poor choices.**
 - **Single player** has not been tested.
 
-## Twine ToDo
 
+## Roadmap
+
+- [ ] Fix random crashes
 - [ ] Make a character's spawn "random" within an area near the Spawn Point (avoids spawning everyone in the same place)
 - [ ] Bot Speed Multiplier: 0.5x, 0.75x, 1x, 2x, 4x, 5x
 - [ ] Player Speed Multiplier: 0.5x, 0.75x, 1x, 2x, 4x, 5x
 - [ ] Bot Health Mult.: 0.25x, 0.5x, 1x, 2x, 4x, 8x
 - [ ] Radar Enhanced: OFF, ON -> make the radar slightly bigger, with smaller and better dots
-- [ ] Fix random crashes
 - [ ] "Night" mode
 - [ ] New option: Automatic Weapons \[OFF|ON]
 - [ ] Fix scoreboard positions (both the position shown on respawn and in the pause menu) -> minor
