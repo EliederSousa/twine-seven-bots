@@ -1,4 +1,4 @@
-# 007: The World Is Not Enough – 7 Bots Hack
+# 007: The World Is Not Enough – 7 Bots Hack - Multiplayer Enhanced 
 
 A hack for **The World Is Not Enough** (Nintendo 64) that enables **up to 7 bots** in multiplayer matches.
 
