@@ -75,6 +75,7 @@ Tested with:
 
 ## Known Issues
 
+- **Menu entry bug after entering in Advanced Menu** — cosmetic, planned fix in next version.
 - **Black loading screen** — cosmetic, accepted as a side effect of the fix for the bot HUD.
 - **Rare random freeze** — happens occasionally during a match; the radar/preset state collision was fixed, so it should be less frequent, but it is still under investigation.
 - **Scoreboard positions** are not always correct (the position shown on respawn and in the pause menu).
@@ -89,6 +90,7 @@ Tested with:
 - [x] Make a character's spawn "random" within an area near the Spawn Point
 - [x] Bot Health multiplier (0.1x–50x)
 - [x] Enhanced Radar (OFF/ON, larger radar with better dots)
+- [ ] Fix bug in menu entry
 - [ ] Visual presets / "Night" mode (Blue Fog, Toxic, Sepia, Yellow Mist, Red Mist, Blackout)
 - [ ] Fix the rare random freeze
 - [ ] Fix the scoreboard positions (respawn and pause menu)
